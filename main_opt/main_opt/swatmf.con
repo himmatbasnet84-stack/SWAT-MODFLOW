@@ -1,0 +1,15 @@
+# swatmf.con created by swatmf
+prj_dir	C:\Users\gyc22\Downloads\New SWAT MODFLOW\pest\main_opt
+swatmf_model	C:\Users\gyc22\Downloads\New SWAT MODFLOW\pest\SWAT-MODFLOW
+sim_start	1/1/2005
+warm-up	3
+cal_start	1/1/2008
+cal_end	12/31/2014
+subs	[1]
+grids	[5163]
+riv_parm	n
+baseflow	n
+time_step	day
+pp_included	n
+grids_lyrs	n
+avg_grids	n
