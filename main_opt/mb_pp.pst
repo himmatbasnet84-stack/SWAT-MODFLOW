@@ -1,0 +1,20 @@
+pcf version=2
+* control data keyword
+pestmode                                 estimation
+noptmax                                 0
+svdmode                                 1
+maxsing                          10000000
+eigthresh                           1e-06
+eigwrite                                1
+* parameter groups external
+mb_pp.pargp_data.csv
+* parameter data external
+mb_pp.par_data.csv
+* observation data external
+mb_pp.obs_data.csv
+* model command line
+python forward_run.py
+* model input external
+mb_pp.tplfile_data.csv
+* model output external
+mb_pp.insfile_data.csv
