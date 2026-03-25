@@ -10,6 +10,6 @@ grids	[5163]
 riv_parm	n
 baseflow	n
 time_step	day
-pp_included	n
+pp_included	[hk0, sy0, ss0]
 grids_lyrs	n
 avg_grids	n
