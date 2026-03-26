@@ -35,15 +35,10 @@ def modify_hk_sy_pars_pp(pp_included):
     time_stamp(des)
     data_fac = pp_included
     for i in data_fac:
-        outfile = i + '.ref'
-        pyemu.utils.geostats.fac2real(i, factors_file=i+'.fac', out_file=outfile)
-
-# def execute_swat_edit():
-#     des = "modifying SWAT parameters"
-#     # time_stamp(des)
-#     # pyemu.os_utils.run('Swat_Edit.exe', cwd='.')
-#     p = subprocess.Popen('Swat_Edit.exe' , cwd = '.')
-#     p.wait()
+        org_file = i + 'pp.dat'
+        outfile = i + 'pp.var.ref'
+        factors_file = i + 'pp.dat.fac'
+        pyemu.geostats.fac2real(org_file, factors_file=factors_file, out_file=outfile)
 
 def execute_swatmf():
     des = "running model"
@@ -107,8 +102,6 @@ if __name__ == '__main__':
     time_step = swatmf_con.loc['time_step','vals']
     pp_act = swatmf_con.loc['pp_included', 'vals']
 
-    # modify_hk_sy_pars_pp(['hk0pp.dat', 'sy0pp.dat', 'ss0pp.dat'])
-
     # update SWAT parameters
     m1 = swat_configs.SwatEdit(wd)
     subbasins = m1.read_subs()
@@ -117,13 +110,15 @@ if __name__ == '__main__':
     m1.subbasins = [subbasins]
     m1.update_swat_parms()
 
+    if pp_act != 'n':
+        pp_act = pp_act.strip('][').split(', ')
+        modify_hk_sy_pars_pp(pp_act)
+
     # update River parameters
     # modifying river pars
     if swatmf_con.loc['riv_parm', 'vals'] != 'n':
         rivmf = mf_configs.mfEdit(wd)
         mf_configs.write_new_riv()
-
-
 
     # execute model
     execute_swatmf()
@@ -154,13 +149,13 @@ if __name__ == '__main__':
     # NOTE: for Hg
     
     # this port is gumu
-    hg_wt_subs = [3, 4, 9, 11]
-    hg_wt_dates = ['6/3/2020', '9/21/2020', '12/7/2020', '3/3/2021', '8/30/2021']
-    hg_handler.extract_hg_wt_mean(hg_wt_subs, sim_start, warmup, cal_start, cal_end, hg_wt_dates)
+    # hg_wt_subs = [3, 4, 9, 11]
+    # hg_wt_dates = ['6/3/2020', '9/21/2020', '12/7/2020', '3/3/2021', '8/30/2021']
+    # hg_handler.extract_hg_wt_mean(hg_wt_subs, sim_start, warmup, cal_start, cal_end, hg_wt_dates)
     
-    hg_sed_subs = [2, 3, 4, 5, 9, 11]
-    hg_sed_dates = ['6/30/2020', '12/31/2020', '11/30/2021']
-    hg_handler.extract_hg_sed_mean(hg_sed_subs, sim_start, warmup, cal_start, cal_end, hg_sed_dates)
+    # hg_sed_subs = [2, 3, 4, 5, 9, 11]
+    # hg_sed_dates = ['6/30/2020', '12/31/2020', '11/30/2021']
+    # hg_handler.extract_hg_sed_mean(hg_sed_subs, sim_start, warmup, cal_start, cal_end, hg_sed_dates)
     '''
     # # NOTE: this is a temporary function
     # if swatmf_con.loc['avg_grids', 'vals'] != 'n':

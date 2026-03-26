@@ -8,7 +8,7 @@ Initial Plant Growth Parameters
             0.00    | PHU_PLT: Number of heat units to bring plant to maturity (IGRO = 1)
 General Management Parameters
             0.20    | BIOMIX: Biological mixing efficiency
-           74.00    | CN2: Initial SCS CN II value
+       74.000000    | CN2: Initial SCS CN II value
             1.00    | USLE_P: USLE support practice factor
             0.00    | BIO_MIN: Minimum biomass for grazing (kg/ha)
            0.000    | FILTERW: width of edge of field filter strip (m)
@@ -18,7 +18,7 @@ Urban Management Parameters
 Irrigation Management Parameters
                0    | IRRSC: irrigation code
                0    | IRRNO: irrigation source location
-           0.000    | FLOWMIN: min in-stream flow for irr diversions (m^3/s)
+        0.000000    | FLOWMIN: min in-stream flow for irr diversions (m^3/s)
            0.000    | DIVMAX: max irrigation diversion from reach (+mm/-10^4m^3)
            0.000    | FLOWFR: : fraction of flow allowed to be pulled for irr
 Tile Drain Management Parameters

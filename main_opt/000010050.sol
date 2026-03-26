@@ -5,7 +5,7 @@
  Porosity fraction from which anions are excluded: 0.500
  Crack volume potential of soil: 0.500
  Texture 1                : GR-C- C- C
- Depth                [mm]:      320.00     1610.00     2180.00
+ Depth                [mm]:       32.00      161.00      218.00
  Bulk Density Moist [g/cc]:        1.30        1.38        1.43
  Ave. AW Incl. Rock Frag  :        0.15        0.16        0.12
  Ksat. (est.)      [mm/hr]:        0.76        0.76        0.76

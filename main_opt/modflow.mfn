@@ -5,7 +5,8 @@ LIST	5002	modflow.list
 DIS	5011	modflow.dis
 BAS6	5013	modflow.bas
 NWT	5032	modflow.nwt
-UPW	5031	modflow.upw
+#UPW	5031	modflow.upw
+UPW	5031	modflow.pp.upw
 RIV	5018	modflow.riv
 RCH	5019	modflow.rch
 OC	5014	modflow.oc
