@@ -1,0 +1,5 @@
+pargpnme,inctyp,derinc,derinclb,forcen,derincmul,dermthd,splitthresh,splitreldiff,splitaction
+hk,relative,0.01,0.0,switch,2.0,parabolic,1e-05,0.5,smaller
+ss,relative,0.01,0.0,switch,2.0,parabolic,1e-05,0.5,smaller
+sy,relative,0.01,0.0,switch,2.0,parabolic,1e-05,0.5,smaller
+swat,relative,0.01,0.0,switch,2.0,parabolic,1e-05,0.5,smaller

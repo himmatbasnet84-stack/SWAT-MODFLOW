@@ -1,0 +1,19 @@
+1
+    SWAT Mar 17 2015    VER 2012/Rev 636_smrt                                                            0/ 0/   0      0: 0: 0
+
+    General Input/Output section (file.cio):                                        
+    12/1/2025 12:00:00 AM ARCGIS-SWAT interface AV                                  
+                                                                                    
+         Number of years in run:   10
+         Area of watershed:      484.354 km2
+1
+    SWAT Mar 17 2015    VER 2012/Rev 636_smrt                                       
+
+    General Input/Output section (file.cio):                                        
+    12/1/2025 12:00:00 AM ARCGIS-SWAT interface AV                                  
+                                                                                    
+Annual Summary for Watershed in year    1 of simulation
+
+UNIT                                             PERCO           TILE                                                                            WATER   SED     NO3     NO3     NO3     NO3     NO3     NO3     N       P       P       P       P       P       NO3     P
+TIME     PREC    SURQ    LATQ    GWQ     SWGW    LATE    RECH    Q           DRN       SW        GW      GWSTOR  GWCON   GWET    ET      PET     YIELD   YIELD   SURQ    LATQ    GWQ     SWGW    PERC    CROP    ORGANIC SOLUBLE ORGANIC TILENO3 GWQ     SWGW    DRN     DRN
+         (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)    (mm)        (mm)      (mm)      (mm)    mm      mm      mm      (mm)    (mm)    (mm)    (mm)    ---------------------(kg nutrient/ha)--------------------------         ------------------------

@@ -1,0 +1,2 @@
+selected_method,selected_variogram,nugget,sill,range,a0,b1,n_wells_unique,COARSEN,TILE_PX,N_CLOSEST,KFOLDS,kf_r2,kf_rmse,kf_mae,loo_r2
+RK,spherical,3136.063598,171890.8083,584043.0461,-400.5693251,1.6495779,2543,2,1024,50,5,0.750871614,95.43202474,58.53804996,
