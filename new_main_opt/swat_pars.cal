@@ -1,0 +1,19 @@
+# this is test...
+parnam                obj_type    chg_type    chg_val                   lb          ub         
+CN2                   mgt         multiply     3.70681179751031209e-06  35.0        98.0       
+FLOWMIN               mgt         multiply     0.00000000000000000e+00  0.0         100.0      
+SOL_Z                 sol         multiply     3.50588115127781208e-05  0.0         3500.0     
+SOL_BD                sol         multiply     8.93034640703227467e-06  0.9         2.5        
+SOL_AWC               sol         multiply     4.28489866799441899e-05  0.0         1.0        
+SOL_K                 sol         multiply     0.074083166908683883989  0.0         2000.0     
+CH_S2                 rte         multiply     5.42422426153210679e-04  -0.001      10.0       
+CH_N2                 rte         multiply     4.21831135943184776e-04  -0.01       0.3        
+CH_K2                 rte         multiply     0.00000000000000000e+00  -0.01       500.0      
+PRF                   rte         multiply     0.00000000000000000e+00  0.0         2.0        
+OV_N                  hru         multiply     0.151883488911167763291  0.01        30.0       
+LAT_TTIME             hru         multiply     0.00000000000000000e+00  0.0         180.0      
+CANMX                 hru         multiply     0.00000000000000000e+00  0.0         100.0      
+ESCO                  hru         multiply     -3.0299488618323878e-05  0.0         1.0        
+EPCO                  hru         multiply     3.92334105550951051e-04  0.0         1.0        
+SURLAG                bsn         multiply     0.00000000000000000e+00  0.05        24.0       
+PERCOP                bsn         multiply     0.00000000000000000e+00  0.0         1.0        
