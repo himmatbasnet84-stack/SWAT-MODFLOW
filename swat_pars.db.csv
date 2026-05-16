@@ -3,32 +3,18 @@ flag,alias ,parnam,obj_type,chg_type,lb,ub,des
 0,,IGRO,mgt,,0,1,Land cover status code.
 0,,PHU_PLT,mgt,,0,3500,Total number of heat unit
 0,,BIOMIX,mgt,,0,1,Biological mixing efficie
-<<<<<<< HEAD
-1,,CN2,mgt,,35,98,SCS runoff curve number f
-0,,USLE_P,mgt,,0,1,USLE equation support pra
-0,,BIO_MIN,mgt,,0,5000,Minimum plant biomass for
-1,,FLOWMIN,mgt,,0,100,
-=======
 0,,CN2,mgt,,35,98,SCS runoff curve number f
 0,,USLE_P,mgt,,0,1,USLE equation support pra
 0,,BIO_MIN,mgt,,0,5000,Minimum plant biomass for
 0,,FLOWMIN,mgt,,0,100,
->>>>>>> 1f9207100bbf593b908d510f6879546eff60264c
 0,,SOL_ZMX,sol,,0,3500, Maximum rooting depth of soil profile.
 0,,ANION_EXCL,sol,,0.01,1, Fraction of porosity (void space) from which anions are excluded.
 0,,SOL_CRK,sol,,0,1,  Crack volume potential of soil.
 0,,TEXTURE,sol,,0,0,  Texture of soil layer.
-<<<<<<< HEAD
-1,,SOL_Z,sol,,0,3500, Depth from soil surface to bottom of layer.
-1,,SOL_BD,sol,,0.9,2.5, Moist bulk density.
-1,,SOL_AWC,sol,,0,1,Available water capacity of the soil layer.
-1,,SOL_K,sol,,0,2000, Saturated hydraulic conductivity.
-=======
 0,,SOL_Z,sol,,0,3500, Depth from soil surface to bottom of layer.
 0,,SOL_BD,sol,,0.9,2.5, Moist bulk density.
 0,,SOL_AWC,sol,,0,1,Available water capacity of the soil layer.
 0,,SOL_K,sol,,0,2000, Saturated hydraulic conductivity.
->>>>>>> 1f9207100bbf593b908d510f6879546eff60264c
 0,,SOL_CBN,sol,,0.05,10, Organic carbon content .
 0,,CLAY,sol,,0,100, Clay content.
 0,,SILT,sol,,0,100, Silt content.
@@ -41,17 +27,10 @@ flag,alias ,parnam,obj_type,chg_type,lb,ub,des
 0,,NUMLAYER,sol,,1,10, The layer being displayed.
 0,,CHW2,rte,,0,1000,
 0,,CHD,rte,,0,30,
-<<<<<<< HEAD
-1,,CH_S2,rte,,-0.001,10,
-0,,CH_L2,rte,,-0.05,500,
-1,,CH_N2,rte,,-0.01,0.3,
-1,,CH_K2,rte,,-0.01,500,
-=======
 0,,CH_S2,rte,,-0.001,10,
 0,,CH_L2,rte,,-0.05,500,
 0,,CH_N2,rte,,-0.01,0.3,
 0,,CH_K2,rte,,-0.01,500,
->>>>>>> 1f9207100bbf593b908d510f6879546eff60264c
 0,,CH_COV1,rte,,-0.05,0.6,
 0,,CH_COV2,rte,,-0.001,1,
 0,,CH_WDR,rte,,0,10000,
@@ -80,17 +59,6 @@ flag,alias ,parnam,obj_type,chg_type,lb,ub,des
 0,,CH_CRHT,rte,,0,10,
 0,,CH_EROD,rte,,-0.05,0.6,
 0,,CH_COV,rte,,-0.001,1,
-<<<<<<< HEAD
-1,,PRF,rte,,0,2,
-0,,SLSUBBSN,hru,,10,150,
-1,,OV_N,hru,,0.01,30,
-1,,LAT_TTIME,hru,,0,180,
-0,,LAT_SED,hru,,0,5000,
-0,,SLSOIL,hru,,0,150,
-1,,CANMX,hru,,0,100,
-1,,ESCO,hru,,0,1,Soil evaporation compensation factor
-1,,EPCO,hru,,0,1,
-=======
 0,,PRF,rte,,0,2,
 0,,SLSUBBSN,hru,,10,150,
 0,,OV_N,hru,,0.01,30,
@@ -100,7 +68,6 @@ flag,alias ,parnam,obj_type,chg_type,lb,ub,des
 0,,CANMX,hru,,0,100,
 0,,ESCO,hru,,0,1,Soil evaporation compensation factor
 0,,EPCO,hru,,0,1,
->>>>>>> 1f9207100bbf593b908d510f6879546eff60264c
 0,,RSDIN,hru,,0,10000,
 0,,ERORGN,hru,,0,5,
 0,,ERORGP,hru,,0,5,
@@ -163,11 +130,7 @@ flag,alias ,parnam,obj_type,chg_type,lb,ub,des
 0,,SNOCOVMX,bsn,,0,500,
 0,,SNO50COV,bsn,,0,1,
 0,,RCN,bsn,,0,15,
-<<<<<<< HEAD
-1,,SURLAG,bsn,,0.05,24,
-=======
 0,,SURLAG,bsn,,0.05,24,
->>>>>>> 1f9207100bbf593b908d510f6879546eff60264c
 0,,APM,bsn,,0.5,2,
 0,,PRF_BSN,bsn,,0,2,
 0,,SPCON,bsn,,0.0001,0.01,
@@ -188,11 +151,7 @@ flag,alias ,parnam,obj_type,chg_type,lb,ub,des
 0,,PHOSKD,bsn,,100,200,
 0,,PSP,bsn,,0.01,0.7,
 0,,RSDCO,bsn,,0.02,0.1,
-<<<<<<< HEAD
-1,,PERCOP,bsn,,0,1,
-=======
 0,,PERCOP,bsn,,0,1,
->>>>>>> 1f9207100bbf593b908d510f6879546eff60264c
 0,,IRTPEST,bsn,,0,250,
 0,,WDPQ,bsn,,0,1,
 0,,WGPQ,bsn,,0,1,
